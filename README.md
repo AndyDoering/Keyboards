@@ -1,6 +1,6 @@
 # The Comprehensive Custom Keyboard Guide
 
-![OLDVSNEW](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/IMG_20191216_164500_596.jpg)
+![OLDVSNEW](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/IMG_20191216_164500_596(1).jpg)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This guide aims to cover everything that you need for leveling up your typing experience. Starting with a brief history, this guide cover components of custom keyboards, how a keyboard works with your operating system, building/modding techniques, the basics of keymap creation and firmware flashing, and finally where to continue exploring and purchasing.
 
