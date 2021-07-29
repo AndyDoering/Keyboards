@@ -207,7 +207,9 @@ A non-exhaustive list of places to purchase the aforementioned components:
 - originativeco.com
 
 #### Communities for Beginner Keyboard Enthusiasts: 
-[MeetupStill](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/PressESCMeetupVideo.png)
+
+[![MeetupVideo](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/PressESCMeetupVideo.png)](https://www.youtube.com/watch?v=KB6mzNDFcyI "Click to Watch!")
+
 - [Local meetups](https://www.youtube.com/watch?v=KB6mzNDFcyI) are a stellar way to try things out, talk to knowledgable folk, and meet other vendors and makers in the community
 - [Top Clack](https://discord.gg/32EgW6N), and [Mechs On Deck](https://discord.gg/m6u3Udw) are all great communities for starting out. Lurking around in the r/mechanicalkeyboards and r/mechmarket subreddits are the most common starting points for people. 
 - Twitch is a great place to see [live shows](https://www.twitch.tv/mechsondeck/), [news](https://www.twitch.tv/topclack), and community updates
