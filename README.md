@@ -113,6 +113,84 @@ Your keyboard identifies every switch’s state and maps it to a keycode via the
 
 ```
 
+The keymap.h file contains the physical mapping of pins and the Matrix definitions for that mapping in two parts. The first part is an ordered array of Matrix positions by switch positions (this maps directly to the keymap). The second is the two-dimensional array that defines the Matrix and pairs it to a Matrix position code. The Matrix scanning loop runs and checks for changes (0 or 1) until a keypress is detected at a defined location (K00). The loop locates [0,0] in the Matrix and finds what key identifier it corresponds to in the layout macro. In the layout, macro K00 will equal a keycode, which is sent to the operating system, or an action is taken such as switching layers, changing lighting, or changing modes such as bootloader or entering debug. The other files are the rules.mk file, which is a make file that is used to set information about the MCU (Microcontroller Unit) that this firmware will be compiled to run on, as well as enabling or disabling some other build features. The config.h file contains the device descriptors such as hardware options, features, and behaviors that were discussed earlier with device enumeration. The file also sets the Matrix size, product name, USB VID/PID, description and other settings, and other defaults to ensure your board is always working.
+
+Finally, the keymap.c file contains the definitions and layermap to keymap data structure. These 16-bit action codes consist of a higher 8 bits, which are all 0 and the lower 8 which holds the USB HID usage code (keycode) such as ‘KC_A’ or ‘0x04’ or ‘00000100’. This is the most often customized and is where the keycodes are stored along with an ASCII art representation of the board layout. All of these files together are used to build the firmware that gets flashed onto the MCU on the PCB –  and then drive all the keypress customization in your keyboard. 
+
+
 ## Buying and Building
+Now, we’re ready for the fun part: buying and building. The following list consists of parts commonly chosen for the best budget-friendly custom keyboard. The below picture is close to what your finished board will look like, depending on the keycaps you decide on. 
+
+#### Parts list (prices at time of writing):
+```
+- Soldering Iron + Tip Cleaner: $48
+- Solder: $25
+- Desolder Hand Pump: $27
+- Flux Pen: $11
+- Switch Opener: $10
+- Switch Puller: $9
+- Keycap Puller: $9
+- 60% PLASTIC CASE: $14.90
+- DZ60 REV3 60% PCB w/ Case Foam: $48
+- DZ60 CNC Plate: $18
+- Gateron Yellow (linear) with milky housings 70pcs): $24 
+- Stabilizers: $14
+- HK Dye-Sub Cherry Profile PBT Keycaps: $39 - $49
+- Braided 6 foot USB-C Cable: $12
+- GPL105g0 Oil: $10 (OPTIONAL)
+- GPL205g0 grease: $10 (OPTIONAL) 
+
+Total Parts and Tools: $310
+Total Parts and Tools with Optional Oils and Greases: $330
+```
+
+#### The Build Process:
+
+1) [Test PCB](https://www.keyboardtester.com/)
+Plugging it into the USB cable on your computer, use tweezers at each switch pin pair on the PCB while the above site is open, which will illuminate the keys on the board and tell you which register correctly and which do not. 
+2) [Clip (if needed) grease, and tune stabilizers](https://www.youtube.com/watch?v=usNx1_d0HbQ)
+This is an optional component, but it’s often considered an easy and immediate way to improve any board’s typing quality. Clipping the stabilizers removes the unnecessary parts of the bottom of the stabilizer stem where the wire connects in, making the stabilizer less wobbly and unstable. 
+3) [Disassemble Switches and Grease Stems and Oil Springs](https://www.youtube.com/watch?v=l8cogVsCmfo)
+The other portion of the optional category, and yest again another modification that pays dividends in the typing experience for everything but clicky switches. 
+4) Reassemble Switches
+5) Install Stabilizers onto PCB
+Completed prior to installing anything else, this also affords the opportunity to check how well the stabilizers are tuned by putting in temporary switches and corresponding caps to check the sound and feel of the stabilizer as it makes a full depress and return.
+6) Push switches into plate, and into through holes on PCB
+7) [Solder Switches to PCB (unless hotswap)](https://youtu.be/iH2mUjJZ-Kw?t=6329)
+8) Test PCB again
+9) Make any case lining or sound adjustments:
+This is a debated area of modding, but generally the cheaper the case, the more it will showcase any sound that occurs during typing. This can be a positive aspect in higher-end cases where sound profile is part of the considerations made in the design and production phases. But in big box or more mass manufactured situations, case lining can lead to a quality heft feeling while managing the echo and vibrations in the case between the bottom of the PCB and inside of the case. 
+10) Install solder PCB/Plate/Switch combo into case
+11) Put keycaps on
+12) Optional flash updated keymaps via [QMK](https://beta.docs.qmk.fm/tutorial/newbs_flashing) or [Via Configurator](https://caniusevia.com/)
+PCBs usually come with a default keymap that can be used immediately; however, this is a necessary step if you want to take things a step further (like a function key that switches the arrow cluster to media control keys, or changing lighting options, for example). 
+10) Test it out!
+
+[Monkeytype](https://monkeytype.com/) is a stellar customizable typing website that also provides metrics for your progress as you get faster and more accurate. 
+Another option you can use for this step is [10 Fast Fingers](https://10fastfingers.com/typing-test/english) as well as [TypeRacer](https://play.typeracer.com/) for racing friends.
+
 
 ## Continue Exploring and Purchasing
+
+A non-exhaustive list of places to purchase the aforementioned components:
+- omnitype.com   
+- cannonkeys.com
+- kbdfans.com
+- store.projectkeyboard.com
+- novelkeys.xyz
+- switchtop.com
+- switchmod.net
+- olkb.com
+- keyhive.xyz
+- keeb.io
+- spacecat.design
+- 1upkeyboards.com
+- thekey.company
+- originativeco.com
+
+Communities for Beginner Keyboard Enthusiasts: 
+- [Top Clack](https://discord.gg/32EgW6N), and [Mechs On Deck](https://discord.gg/m6u3Udw) are all great communities for starting out. Lurking around in the r/mechanicalkeyboards and r/mechmarket subreddits are the most common starting points for people. 
+- Twitch is a great place to see [live shows](https://www.twitch.tv/mechsondeck/), [news](https://www.twitch.tv/topclack), and community updates
+- Instagram is the best place to get news, group buy updates, follow artisan keymakers.
+- Almost everyone has a dedicated Discord server for their vendor site, stream community, etc. This is the best place to interact with other entusiasts and learn more.
+- [Deskauthority](https://deskthority.net/wiki/) is an amazing historical and technical resource
