@@ -152,6 +152,9 @@ QMK is an open source community that maintains QMK Firmware which is based on a 
 
 
 ## Buying and Building
+
+![BearBoard](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/IMG_20200509_122721_723.jpg)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, we’re ready for the fun part: buying and building. The following list consists of parts commonly chosen for the best budget-friendly custom keyboard. The below picture is close to what your finished board will look like, depending on the keycaps you decide on. 
 
 #### Parts list (prices at time of writing):
