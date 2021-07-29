@@ -1,5 +1,6 @@
 # The Comprehensive Custom Keyboard Guide
 
+
 This guide aims to cover everything that you need for leveling up your typing experience. Starting with a brief history, this guide cover components of custom keyboards, how a keyboard works with your operating system, building/modding techniques, the basics of keymap creation and firmware flashing, and finally where to continue exploring and purchasing.
 
 ---
@@ -37,9 +38,15 @@ Now, let’s look at switches. There are literal mega testers that feature 100 o
 
 There are three main types of switches: linear, tactile, and clicky. The most commonly associated with mechanical keyboards, clicky (Cherry Greens pictured below), generate a click sound via a two-piece stem that taps against the bottom housing of the switch on depress and the bottom of the switch stem on release. The contact on the left is integrated with the pins on the bottom of the switch, and during depress of the switch completes a circuit registering the press as an event. Fast forward through [USB specs](https://www.usb.org/documents) and you’re now seeing letters on the screen as you type.
 
+![MX Green](https://www.cherrymx.de/_Resources/Persistent/fafa42f5c234c958a785c8b383c0e548a69f1044/GIF_MXGreen.gif)
+	
 Tactile switches operate in much the same fashion, but instead of two pieces creating a click noise, the angular shape on the left side of the stem (the moving brown piece in the Cherry diagram below) creates a bump due to resistance in the keypress against the switch leaf. There are varying degrees of ‘bump’ feel, which is dictated by the angle of the stem legs. A more aggressive angle equates to a heavier bump during the keypress. 
 
+![MX Brown](https://www.cherrymx.de/_Resources/Persistent/eab22a5e10e07e5487817e5eaaa42db92950dfc3/GIF_MXRGB_Brown.gif)
+
 Finally, linear switches are those that depress and release in a linear feeling fashion (where the depress and release of a key feels equal in amount of energy required relative to its position in the actuation process), and are often considered the smoothest typing experience. The colors of the switches are commonly used as quick identifiers in brands of what switch type is which since stems cannot be observed in closed housings. Switches, therefore, are described as brand + color. These combinations carry with them a set of statistics such as the Cherry Blacks below: “Linear switching characteristics, 60 cN operating force, 2.0 mm pre travel and 4.0 mm total travel.” See where those force curves from earlier come back into play? Switches are now made with the same number of variables such as housing plastic type, spring type, spring weight (measured in amount of force centi-Newtons (cN) or grams (g) required to actuate the switch), and even preferred types of greases, oils, and gaskets to use on the internal components. All of these boil down to sound-and-feel preferences, and have their own cult followings. #LinearGang. For more switch data, see [ThereminGoats guide](https://www.theremingoat.com/blog/a-beginners-guide-to-force-curves).
+
+![MX Black](https://www.cherrymx.de/_Resources/Persistent/1a8388b64d50a8318b1bc171326d488e6f9bed2f/GIF_MXRGB_Silent-Black.gif)
 
 There are people who chase down vintage boards made in specific regions of the world so that they can harvest well-worn switches from them for the smoothest experience. Sites like [Deskthority](https://deskthority.net/wiki/Main_Page) catalog such information and are an extremely useful resource when hunting vintage West German Cherry Browns and Blacks. Cherry is named for the Cherry Corporation, which was founded in the U.S. in 1953 and began producing keyboards in 1967. The Cherry MX key switch was introduced around 1985, and the MX style ‘+’ shaped stem quickly became the standard switch type to use. Cherry and MX are synonymous from a purchasing perspective, and often advertised as having “Cherry-style” switches. Just know that Alps switches and builds, though, are not for the faint of heart – they are a relic from an older era that are hard to work with, hard to find, and even harder to work on when it comes to your board (That didn't stop me from building [this Lunar AEK](https://github.com/AndyDoering/Lunar-AEK-Build-Log)).
 
@@ -189,6 +196,7 @@ A non-exhaustive list of places to purchase the aforementioned components:
 - originativeco.com
 
 Communities for Beginner Keyboard Enthusiasts: 
+- [Local meetups](https://www.youtube.com/watch?v=KB6mzNDFcyI) are a stellar way to try things out, talk to knowledgable folk, and meet other vendors and makers in the community
 - [Top Clack](https://discord.gg/32EgW6N), and [Mechs On Deck](https://discord.gg/m6u3Udw) are all great communities for starting out. Lurking around in the r/mechanicalkeyboards and r/mechmarket subreddits are the most common starting points for people. 
 - Twitch is a great place to see [live shows](https://www.twitch.tv/mechsondeck/), [news](https://www.twitch.tv/topclack), and community updates
 - Instagram is the best place to get news, group buy updates, follow artisan keymakers.
