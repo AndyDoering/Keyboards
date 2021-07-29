@@ -1,5 +1,6 @@
 # The Comprehensive Custom Keyboard Guide
 
+![OldVsNew](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/IMG_20191216_164500_596.jpg)
 
 This guide aims to cover everything that you need for leveling up your typing experience. Starting with a brief history, this guide cover components of custom keyboards, how a keyboard works with your operating system, building/modding techniques, the basics of keymap creation and firmware flashing, and finally where to continue exploring and purchasing.
 
@@ -30,6 +31,8 @@ This guide aims to cover everything that you need for leveling up your typing ex
 #### Plates
 Plates come in a range of sizes, materials, and layouts. The generally accepted takeaways are that metal is a firmer typing experience while softer materials such as PC, POM, FR4 and carbon fiber give progressively more flex (not to mention differing sound profiles). Flex cuts and other design differences are also becoming more commonplace in plate and PCB designs but are omitted from this guide for the sake of brevity. For an in-depth explanation on plate design, see NathanAlphaMan’s interest check post on their [75% Evolv Keyboard](https://geekhack.org/index.php?topic=104531.0).
 
+![PlateTypes](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/IMG_20210320_143820_109.jpg)
+
 #### Stabilizers
 Stabilizers (AKA stabs) are small pieces of plastic with metal wires that stabilize keys that are larger than 2U or 2 units. Us are the unit of measurement used for keycaps. 1U, the smallest unit possible, is the size of an alpha keycap such as A, B, C, etc. The larger the key, the larger the number before the U in correlation to how many 1U keys it would take up in board space. Without stabilizers, these larger keys would tilt off the switch stems and wind up unusable. Stabilizers come in the more commonly found Costar variants seen in Razer and CoolerMaster boards, or Cherry style. Cherry is the preferred option as they are quieter and smoother than Costar, and can be tuned to a finer degree. Stabilizers also come in PCB or plate mount styles, with PCB mount clipping or screwing into the PCB (with the use of small plastic spacers) and plate mount snapping into cuts in the plate designed for them. The parts recommended in this article are screw-in PCB mounts. For your average 60% board, one 6.25U and four 2U are required.
 
@@ -55,7 +58,8 @@ TheKeeblog does a stellar walkthrough on each type, but the main factors in keyc
 
 
 ![Keycap Profiles](https://github.com/AndyDoering/Keyboards/blob/main/images/keycap_profiles.png)
-
+- Image by [The Keeblog](https://thekeeblog.com/overview-of-different-keycap-profiles/)
+- 
 Dye-sublimination is a labor-intensive process that uses a transfer process to create clean crisp marks (legends) on the keycaps. Double-shot uses a mold injection process and two different colors of plastic to create some of the most durable keycaps available and is less prone to showing legends wearing off over time. One last aspect to consider is keycap profile. Keycap profiles, described in rows, are those that can be observed when looking at a keyboard from the side. These change from top to bottom of the board, with each row offering more or less contour to the hand and fingers while typing. The amount of contour naturally requires varying amounts of space and material, and can affect the feel and sound. A web-based tool by reddit user /u/gtderEvan, [Keycaps.info](https://www.keycaps.info/), illustrates these profiles’ names, shapes, and size differences.
 
 No matter what keycaps you buy, make sure you buy the right keys. Normally a base kit is offered with enough keycaps to cover standard (ANSI and Tsangsan) layouts up to TKL size. However, color options, icon keys, and more niche board layouts such as sub 60% sizes, split shifts or spacebars, and ergo boards require the purchase of additional kits to supply the required keys, as seen in the below graphic: 
@@ -202,10 +206,13 @@ A non-exhaustive list of places to purchase the aforementioned components:
 - thekey.company
 - originativeco.com
 
-Communities for Beginner Keyboard Enthusiasts: 
+#### Communities for Beginner Keyboard Enthusiasts: 
+[MeetupStill](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/PressESCMeetupVideo.png)
 - [Local meetups](https://www.youtube.com/watch?v=KB6mzNDFcyI) are a stellar way to try things out, talk to knowledgable folk, and meet other vendors and makers in the community
 - [Top Clack](https://discord.gg/32EgW6N), and [Mechs On Deck](https://discord.gg/m6u3Udw) are all great communities for starting out. Lurking around in the r/mechanicalkeyboards and r/mechmarket subreddits are the most common starting points for people. 
 - Twitch is a great place to see [live shows](https://www.twitch.tv/mechsondeck/), [news](https://www.twitch.tv/topclack), and community updates
 - Instagram is the best place to get news, group buy updates, follow artisan keymakers.
 - Almost everyone has a dedicated Discord server for their vendor site, stream community, etc. This is the best place to interact with other entusiasts and learn more.
 - [Deskauthority](https://deskthority.net/wiki/) is an amazing historical and technical resource
+
+![ZachGAFTattoo](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/20180915_110449.jpg)
