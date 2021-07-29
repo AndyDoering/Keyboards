@@ -242,5 +242,3 @@ A non-exhaustive list of places to purchase the aforementioned components:
 - Instagram is the best place to get news, group buy updates, follow artisan keymakers.
 - Almost everyone has a dedicated Discord server for their vendor site, stream community, etc. This is the best place to interact with other entusiasts and learn more.
 - [Deskauthority](https://deskthority.net/wiki/) is an amazing historical and technical resource
-
-![ZachGAFTattoo](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/20180915_110449.jpg)
