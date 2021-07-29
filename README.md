@@ -12,6 +12,7 @@
 - [How a Keyboard Works](#how-a-keyboard-works)
 - [Buying and Building](#buying-and-building)
 - [Continue Exploring and Purchasing](#continue-exploring-and-purchasing)
+- [Gallery of Amazing Builds (by builder Lightning Keyboards)](https://www.lightningkeyboards.com/)
 
 ## A Brief History
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This hobby originated from a small niche modding community who wanted more from their boards. Specifically, boards like the Topre switch-based [Happy Hacking Keyboard (HHKB)](https://www.hhkeyboard.com/uk/products/classic/) or the [DK Saver](https://geekhack.org/index.php?PHPSESSID=3eln55ahpfes72egu77cje6s6q0adcv5&topic=44030.0). Most of the knowledge and culture existed on the [Geekhack forum](https://geekhack.org/), where enthusiasts ran limited group buys fulfilled through Google Forms, trust, and PayPal payments. The group buy method, along with communal interest checks on ideas and concepts pre-group buy, still occur largely on Geekhack even today (although more out of tradition than anything). The group buy format remains the most prevalent method for purchasing; however, these usually now occur with full-time online vendors who interface with manufacturers, providing quality-checked consistency, and higher-scale purchase potential. 
@@ -40,6 +41,9 @@
 
 #### Stabilizers
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stabilizers (AKA stabs) are small pieces of plastic with metal wires that stabilize keys that are larger than 2U or 2 units. Us are the unit of measurement used for keycaps. 1U, the smallest unit possible, is the size of an alpha keycap such as A, B, C, etc. The larger the key, the larger the number before the U in correlation to how many 1U keys it would take up in board space. Without stabilizers, these larger keys would tilt off the switch stems and wind up unusable. Stabilizers come in the more commonly found Costar variants seen in Razer and CoolerMaster boards, or Cherry style. Cherry is the preferred option as they are quieter and smoother than Costar, and can be tuned to a finer degree. Stabilizers also come in PCB or plate mount styles, with PCB mount clipping or screwing into the PCB (with the use of small plastic spacers) and plate mount snapping into cuts in the plate designed for them. The parts recommended in this article are screw-in PCB mounts. For your average 60% board, one 6.25U and four 2U are required.
+
+![C3qualzStabs](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/stabs.png)
+- C3qualz Stabilizers Image from [ILUMKB](https://ilumkb.com/products/c3-equalz-screw-in-stabilizers-v2)
 
 #### Switches
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, let’s look at switches. There are literal mega testers that feature 100 or more different switches to try, including a [website by Jacob Alexander of Input Club](https://chart-studio.plotly.com/~haata#/) that illustrates via force curve graphs the amount of force required in a single keypress and release.
