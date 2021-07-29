@@ -44,9 +44,74 @@ Finally, linear switches are those that depress and release in a linear feeling 
 There are people who chase down vintage boards made in specific regions of the world so that they can harvest well-worn switches from them for the smoothest experience. Sites like [Deskthority](https://deskthority.net/wiki/Main_Page) catalog such information and are an extremely useful resource when hunting vintage West German Cherry Browns and Blacks. Cherry is named for the Cherry Corporation, which was founded in the U.S. in 1953 and began producing keyboards in 1967. The Cherry MX key switch was introduced around 1985, and the MX style ‘+’ shaped stem quickly became the standard switch type to use. Cherry and MX are synonymous from a purchasing perspective, and often advertised as having “Cherry-style” switches. Just know that Alps switches and builds, though, are not for the faint of heart – they are a relic from an older era that are hard to work with, hard to find, and even harder to work on when it comes to your board (That didn't stop me from building [this Lunar AEK](https://github.com/AndyDoering/Lunar-AEK-Build-Log)).
 
 #### Keycaps
+TheKeeblog does a stellar walkthrough on each type, but the main factors in keycaps are plastic type, profile, and print method. Plastic options are ABS, PBT, or POM. ABS keycaps are the most basic plastic type, and can be double-shot, pad printed, or laser engraved. ABS also tends to ‘shine’ quicker than PBT, creating a glossy effect on heavily used portions of boards over time. This plastic type was commonly used in older plastic keyboards and gaming consoles and is attributed to the yellowing that occurs over time and with exposure to light (see [RetroBright](https://www.retr0bright.com/) for how to reverse this process). PBT is less prone to shining and yellowing, and is included on boards such as HHKBs, Duckys, Pok3rs, and Realforces. Most of the shelf boards come with OEM profile caps. The tradeoff has been that they are more limited in printing options such as dye-sublimation and only more recently double-shot molding being offered. 
+
+Dye-sublimination is a labor-intensive process that uses a transfer process to create clean crisp marks (legends) on the keycaps. Double-shot uses a mold injection process and two different colors of plastic to create some of the most durable keycaps available and is less prone to showing legends wearing off over time. One last aspect to consider is keycap profile. Keycap profiles, described in rows, are those that can be observed when looking at a keyboard from the side. These change from top to bottom of the board, with each row offering more or less contour to the hand and fingers while typing. The amount of contour naturally requires varying amounts of space and material, and can affect the feel and sound. A web-based tool by reddit user /u/gtderEvan, [Keycaps.info](https://www.keycaps.info/), illustrates these profiles’ names, shapes, and size differences.
+
+No matter what keycaps you buy, make sure you buy the right keys. Normally a base kit is offered with enough keycaps to cover standard (ANSI and Tsangsan) layouts up to TKL size. However, color options, icon keys, and more niche board layouts such as sub 60% sizes, split shifts or spacebars, and ergo boards require the purchase of additional kits to supply the required keys, as seen in the below graphic: 
+
 #### PCBs
+The last and often overlooked component, the PCB (printed circuit board), is what makes the keyboard work. It’s the electrical component that links the switches together and allows for actuation signals to be recognized, processed, and delivered to your computer system. PCBs are varying levels of complexity but are normally created with supporting layout styles in mind that range from a fixed variant to supporting the gamut of options in a given form factor (pseudo-affectionately termed Swiss-cheese). PCBs are also often a 1-1 match with the board they are intended to be used with. 60% and some TKL boards  can use interchangeable PCBs, but this is dependent on mounting type of the PCB and stand-off locations in the case. For most everything else, the PCB must be the one sold with the case or kit. Other options include per-key RGB, underboard lighting, ESD protection, USB type (hopefully USB-C), and firmware type (the primary option being QMK).
 
 ## How a Keyboard Works
+This portion is a more technical walkthrough of how your keyboard works, what QMK offers over everyday keyboard functionality, and what occurs after the keypress. This process begins with plugging in your USB device, which then kicks off more processes. Before you can use a USB device, your system must enumerate the device. The USB port is designed so that inserting (and removing) devices can be recognized by the host. When this happens, the host informs its device driver, which scans the bus and asks the device to identify itself. The question (request) that the host system is making to the PCB is in order to enumerate it, discern exactly what device it is, and how your system should proceed with using it. These descriptors stored in the device describe its capabilities and all the information about it, including the device type (in our case HID), vendor ID, product ID, and more. The device must respond to these calls (along with any other information it may be sending or receiving) with these descriptors in accordance with the specifications found in the report descriptor. This information tells the host system what drivers to use and how to process the information coming in through that USB bus. Once successfully enumerated, the host can begin sending and receiving data (like sending user input to the host system).
+
+This process flows like so: device plugged in -> device detected -> get device speed -> get device descriptors -> reset and assign address -> get configurations -> load drivers -> device is ready to use. An example for device descriptors might look something like this:
+
+```c
+//------------------------------------------
+// Standard Device Descriptor Type Definition
+//------------------------------------------
+		typedef struct
+		{
+			BYTE bLength;                // Size of this Descriptor in Bytes
+			BYTE bDescriptorType;        // Descriptor Type (=1)
+			WORD bcdUSB;                 // USB Spec Release Number in BCD
+			BYTE bDeviceClass;           // Device Class Code
+			BYTE bDeviceSubClass;        // Device Subclass Code
+			BYTE bDeviceProtocol;        // Device Protocol Code
+			BYTE bMaxPacketSize0;        // Maximum Packet Size for EP0 
+			WORD idVendor;               // Vendor ID 
+			WORD idProduct;              // Product ID
+			WORD bcdDevice;              // Device Release Number in BCD
+			BYTE iManufacturer;          // Index of String Desc for Manufacturer
+			BYTE iProduct;               // Index of String Desc for Product
+			BYTE iSerialNumber;          // Index of String Desc for SerNo
+			BYTE bNumConfigurations;     // Number of possible Configurations
+		} device_descriptor;         	 // End of Device Descriptor Type
+
+```
+
+Now that the board is enumerated and ready for use, let’s move on to keypresses. When you press a key, your keyboard is capable of recognizing this as an event (pressed, held, or released). Your keyboard then transfers those presses to the host in the form of a keyboard report containing scan codes, which identifies the board’s current state. The firmware does not send any actual letters or characters, only scan codes. Once the keycode (scan code) is sent to the OS, the software has to match it to an actual character. The HID specification defines what a keyboard can actually send through the USB and be properly recognized. This includes a pre-defined list of scan codes that are simple numbers from 0x00 to 0xE7. An example of this is the scan code ‘0x04’ which correlates to scan code ‘KC_A’, or ‘A.’
+
+Each press is detected through a process called Matrix scanning. This happens approximately 10 times per second. Essentially, what it means is that a keypress is detected as 1 instead of a 0. This process works like a user making a keypress, which is registered by the device firmware. The USB device then sends a bi-directional flow of information over the USB port to the system level data buffer, which is then relayed to the host-side application. If you wanted to modify the codes being sent over the serial bus, then you’d want to use QMK, or the Quantum Mechanical Keyboard. 
+QMK is an open source community that maintains QMK Firmware which is based on a fork of tmk_keyboard (by Jun Wako) with some useful features for Atmel AVR controllers. QMK has community adoption and support – from a GUI Configurator to the expansion of a number of available advanced features, and even implementation of the latest trend in firmware flashing, VIA Configurator. QMK should run on any Atmel AVR processor with enough flash memory (the bootlader is default 4kB). The most popular is the atmega32u4, which is an 8-bit AVR RISC-based MCU with 32KB self-programming flash program memory. 
+
+Your keyboard identifies every switch’s state and maps it to a keycode via the help of a C macro, or keyboard layout. Matrix scanning tracks changes since the last scan. QMK stores the last scan, and if different than the current scan, it detects what pressed key caused the difference. The physical switch location corresponds to the Matrix location, which corresponds to the logical switch location linked to the user keymap (which specifies the keycode), or any other user-defined variable, for the logical switch location. These are paired in the keymap.h file, and an example looks like this:
+
+```c
+{
+		{0,0,0,0},
+		{0,0,0,0},
+		{0,0,0,0},
+		{0,0,0,0},
+		{0,0,0,0}
+		}
+		#define LAYOUT( \
+			k00, k01, k02, k03, \
+			k10, k11, k12, k13, \
+			k20, k21, k22, \
+			k30, k31, k32, k33, \
+			k40,      k42 \
+		) { \
+			{ k00, k01, k02, k03, }, \
+			{ k10, k11, k12, k13, }, \
+			{ k20, k21, k22, KC_NO, }, \
+			{ k30, k31, k32, k33, }, \
+			{ k40, KC_NO, k42, KC_NO } \
+		}
+
+```
 
 ## Buying and Building
 
