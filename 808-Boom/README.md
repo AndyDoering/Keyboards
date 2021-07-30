@@ -27,9 +27,9 @@ For the white and black, we've chosen very specific colors that are already used
 
 ![Pantones](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/pantones.jpg)
 
-Slate: Pantone Cool Grey 8 CP, Pantone Cool Grey 10 XGC
-Muted: Cool Gray 5 C, Cool Gray 1 C
-GrayScale: Cool Gray 5 C, Cool Gray 1 C
+- Slate: Pantone Cool Grey 8 CP, Pantone Cool Grey 10 XGC
+- Muted: Cool Gray 5 C, Cool Gray 1 C
+- GrayScale: Cool Gray 5 C, Cool Gray 1 C
 
 ## Kitting
 #### Bass Kit (Base Kit)
