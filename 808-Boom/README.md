@@ -52,27 +52,28 @@ GrayScale: Cool Gray 5 C, Cool Gray 1 C
 - Canada - Deskhero
 
 ## Renders
+- Austin
 ![Austin](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/AustinRender2.png)
+- Austin
 ![Austin2](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/AustinRender.png)
+- KBD 8X MKII
 ![KBD8xandOcelot](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/AustinIRL-2.png)
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+- J-02
+![J-02](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/j-02.png)
+- Evolv
+![Evolv](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/evolv.jpeg)
 
 ## Prototypes and Color matching
 ![PantpneChecks](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/colorchecks.jpeg)
 ![ProtoChecks](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/20210416_105646.jpg)
 ![AustinIRL1](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/IRL-proto.jpeg)
-![AustinIRL2]()
 ![TKC1800](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/TKC1900.png)
 ![PantoneChips](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/ColorChips.jpg)
+![ProdChecks](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/20210416_105646.jpg)
 ![DeskmatProd1](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/808_Process_1.png)
 ![DeskmatProd2](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/808_Process_2.png)
 ![DeskmatProd3](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/808_Process_3.png)
-![DeskmatFinal]()
+![DeskmatFinal](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/Final_808-boom_deskmat-1_1024x1024.jpg)
 
 ## Collabs
 - [Archetype Artisan Caps](https://imgur.com/gallery/qwhm8q4)
