@@ -47,7 +47,7 @@ Hello, and welcome to the private group buy! This is the info page for the Priva
   - Waiting for proto verification
 
 ## Updates
-- _Last Updated 7/30/2021_
+- `Last Updated 7/30/2021`
 - Currently taking interest spots
 - Spots left
   > 8/10
