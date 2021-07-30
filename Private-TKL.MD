@@ -1,4 +1,4 @@
-# Private TKL - An F-ROW less TKL
+# Private TKL - F-ROW less TKL Private Group Buy
 
 Hello, and welcome to the private group buy! This the info page for the Private TKL, an F-ROW less dream of mine being produced with lots of help from Fropsie and Superuser. You can find more info below, with more to come as updates and info is available.
 
