@@ -1,4 +1,4 @@
-# Infinikey 808-Boom: A keyset inspired by one of the most iconic devices in music production and beat making
+# Infinikey 808-Boom: A keyset inspired the most iconic device in music
 
 ![Rukia](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/Rukia.jpeg)
 
