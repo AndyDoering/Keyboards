@@ -6,7 +6,7 @@ Hello, and welcome to the private group buy!
 This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mine being produced with lots of help from Fropsie/Armani and Superuser. Simply put, I've always wanted an F-ROW less board, but few have come to fruition. The goal of this board is to produce something that is attractive, pairs well with a wide range of styles, and is pleasant to type on in the F-ROW less form factor. A proto version of this board has already been produced in TKL form factor ([see the SDTKL gallery here](https://github.com/AndyDoering/Keyboards/tree/main/Private-TKL/SDTKL-proto)), which Armani was extremely pleased with (note the side profile of the SDTKL proto is a slightly different). Since this is an extremely small private run, the aim is to minimize areas for failure and maximize quality, opting to do a few things well instead of offer everything possible. 
 
 ## Timeframe
-- Pending PCB approval, ready to start locking in commited buyers to place order
+- Pending PCB approval and final price calculation, ready to start locking in commited buyers and move forward with placing group buy order
 
 ## Features:
 - Structure: Leafspring Gasket (Similar to the [E7-V2](https://exclusive.run/blogs/news/e7-v2-gml-isolated-gasket-muted-plate-leaf-spring-structure))
