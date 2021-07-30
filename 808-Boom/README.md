@@ -2,9 +2,6 @@
 
 ![Rukia](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/Rukia.jpeg)
 
-[IC FORM](https://docs.google.com/forms/d/e/1FAIpQLSeRoyXWSYCPGCJr3YPfFe_xvdyoDUvwU1I4chM3-wsihgSFkQ/viewform)
-[GEEKHACK LINK](https://geekhack.org/index.php?topic=107740.0)
-
 [/u/Langelandia](https://www.reddit.com/u/Langelandia/) and I worked together to design a keyset inspired by one of the most iconic devices in music production and beat making: the [Roland TR-808 Rhythm Composer](https://en.wikipedia.org/wiki/Roland_TR-808), commonly known as The 808.
 
 The 808 is a drum machine that was manufactured from 1980 to 1983 and has continued to influence drum beats for decades. It was one of the first to allow producers to program beats instead of having to choose from preset sounds and patterns. It was discontinued from production after only 12,000 units were made. Between the difficulty of stocking the semiconductors the 808 used, and analog synthesis sounds being ahead of their time (pre-electronic/hip-hop), the machine was eventually replaced by the [TR-909](https://en.wikipedia.org/wiki/Roland_TR-909).
@@ -18,6 +15,8 @@ We are proud to say that we apartnered with [Children’s Music Fund](https://ww
 We set out to produce a set that we were passionate about, as well as use the power of design for a greater good. We spent a lot of time considering how to support 40s folks, as well as Alice layout users, and boards of all sizes. We worked hard to design this set in such a way that it remains visually consistent throughout almost any keyboard layout, yet also offers users a range of options. We appreciate your feedback and insights, and look forward to your support in the future as we look to take this set through group buy.
 
 ## Info
+- [IC FORM](https://docs.google.com/forms/d/e/1FAIpQLSeRoyXWSYCPGCJr3YPfFe_xvdyoDUvwU1I4chM3-wsihgSFkQ/viewform)
+- [GEEKHACK LINK](https://geekhack.org/index.php?topic=107740.0)
 - Profile: Cherry
 - Sculpt: 1-1-2-3-4-4
 - Legends: Dye Sublimation
