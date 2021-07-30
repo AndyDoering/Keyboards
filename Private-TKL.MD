@@ -1,23 +1,40 @@
-# Private TKL - F-ROW less TKL Private Group Buy
+# Private TKL - F-ROW less WKL TKL Private Group Buy
 
-Hello, and welcome to the private group buy! This the info page for the Private TKL, an F-ROW less dream of mine being produced with lots of help from Fropsie and Superuser. You can find more info below, with more to come as updates and info is available.
+Hello, and welcome to the private group buy! This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mine being produced with lots of help from Fropsie and Superuser. Simply put, I've always wanted an F-ROW less board, but few The goal of this board was to produce something minimal, attractive, and pleasant to type on in the F-ROW les form factor. To manage expectations and also keep costs down, there will be no machined branding, and no alternative color combinations being run other than those listed below. Since this is an extremely small private run, the aim is to minimize areas for failure and maximize quality, opting to do a few things well instead of offer everything possible. 
 
 ## Features:
 - Structure: Leafspring Gasket (Similar to the [E7-V2](https://exclusive.run/blogs/news/e7-v2-gml-isolated-gasket-muted-plate-leaf-spring-structure))
-- Case Color: Dark Gray Anodized (Simlilar to the [KBD8X MKII](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/IMG_20191216_164500_596(1).jpg))
+- Layout:    
+  - WKL
+  - ANSI + ISO Support
+  - Stepped + Normal Caps
+  -  
+- Seamless profile design 
+- Potential Color(s): 
+  - Dark Gray Anodized (Simlilar to the [KBD8X MKII](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/IMG_20191216_164500_596(1).jpg))
+  - E-White
+  - Silver
 - Plate: Carbon Fiber
 - Weight: E-Black
-- Typing angle: TB
+- Typing angle: Est 7°
 - Weight: TBD
-- PCB: 1.2mm
+- PCB: 1.2mm (x2)
   - USB-C
   - MX + Alps Support
-  - ANSI + ISO Support
-  - Uses standard daughterboard
+  - Uses standard daughterboard (mounted on bottom of case)
   - [QMK](https://docs.qmk.fm/#/) & [VIA](https://caniusevia.com/) compatible
   - Caps LED only
-- Designer: Fropsie and Superuser
 - Price: `Coming Soon`
+
+## Parts List:
+- 1x 6063 aluminum board top
+- 1x 6063 aluminum board bottom
+- 1x aluminum weight
+- 1x Carbon Fiber Plate
+- 2x QMK + VIA / ANSI + Alps Compatible PCBs designed by Superuser
+- 1 Daughterboard
+- Screws
+- Bumpons
 
 ## Renders:
 ![1](https://user-images.githubusercontent.com/64050644/127601315-570c1bcd-dcf2-417d-82af-4da2097ee43a.png)
