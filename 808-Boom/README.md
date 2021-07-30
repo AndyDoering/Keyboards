@@ -75,6 +75,7 @@ For the white and black, we've chosen very specific colors that are already used
 ![PantpneChecks](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/colorchecks.jpeg)
 ![TrayCaps](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/traycaps.jpeg)
 ![ProtoChecks](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/20210416_105646.jpg)
+![ProtoChecks2](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/Round1Test.jpg)
 ![DeskmatProd1](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/808_Process_1.png)
 ![DeskmatProd2](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/808_Process_2.png)
 ![DeskmatProd3](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/808_Process_3.png)
@@ -114,14 +115,17 @@ For the white and black, we've chosen very specific colors that are already used
 
 ![KneeDeep](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/KneeDeep.jpg)
 
-![]()
+- KneeDeep
 
-![]()
+![OpsecPanda](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/opsecPANDA8008.jpg)
 
-![]()
+- opsecPANDA8008
 
-![]()
+![D4vid4f0004](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/D4vid4f0004.png)
 
+- D4vid4f0004
+
+---
 
 ## Extra Info
 - [Podcast about the 808](https://www.20k.org/episodes/808)
