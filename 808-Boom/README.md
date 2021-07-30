@@ -1,6 +1,6 @@
 # Infinikey 808-Boom: A keyset inspired the most iconic device in music
 
-![Rukia](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/Rukia.jpeg)
+![KneeDeep](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/KneeDeep.jpg)
 
 [/u/Langelandia](https://www.reddit.com/u/Langelandia/) and I worked together to design a keyset inspired by one of the most iconic devices in music production and beat making: the [Roland TR-808 Rhythm Composer](https://en.wikipedia.org/wiki/Roland_TR-808), commonly known as The 808.
 
@@ -52,34 +52,48 @@ For the white and black, we've chosen very specific colors that are already used
 
 ## Renders
 - Austin
+
 ![Austin](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/AustinRender2.png)
-- Austin
-![Austin2](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/AustinRender.png)
-- KBD 8X MKII
-![KBD8xandOcelot](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/AustinIRL-2.png)
+![AustinRhythm](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/AustinRenderRhythm.jpeg)
+![Numpad](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/AustinNumpad.jpeg)
+![ESC](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/AustinESC.jpeg)
+
+- Rukia
+
+![Rukia](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/Rukia.jpeg)
+
 - J-02
+
 ![J-02](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/j-02.png)
+
 - Evolv
+
 ![Evolv](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/evolv.jpeg)
 
 ## Prototypes and Color matching
-![PantpneChecks](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/colorchecks.jpeg)
-![ProtoChecks](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/20210416_105646.jpg)
-![AustinIRL1](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/IRL-proto.jpeg)
-![TKC1800](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/TKC1900.png)
 ![PantoneChips](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/ColorChips.jpg)
-![ProdChecks](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/20210416_105646.jpg)
+![PantpneChecks](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/colorchecks.jpeg)
+![TrayCaps](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/traycaps.jpeg)
+![ProtoChecks](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/20210416_105646.jpg)
 ![DeskmatProd1](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/808_Process_1.png)
 ![DeskmatProd2](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/808_Process_2.png)
 ![DeskmatProd3](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/808_Process_3.png)
 ![DeskmatFinal](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/Final_808-boom_deskmat-1_1024x1024.jpg)
+![AustinIRL1](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/IRL-proto.jpeg)
+![KBD8xandOcelot](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/AustinIRL-2.png)
+![TKC1800](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/TKC1900.png)
 
 ## Collabs
 - [Archetype Artisan Caps](https://imgur.com/gallery/qwhm8q4)
+
 ![ArchetypeCaps](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/archetype_caps.jpg)
+
 - ZapCables DIY Kits (Offered two different DIY kits: one for audio cables and one for computer cables)
+
 ![CableMatch](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/cable-test.jpeg)
+
 - SpaceCables Custom Cables
+
 ![1](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/Cable-1.png)
 ![2](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/cable-2.png)
 ![3](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/cable-3.png)
@@ -87,17 +101,27 @@ For the white and black, we've chosen very specific colors that are already used
 ## Final Delivered Set Gallery
 
 ![](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/20210621_034956.jpg)
+
 - u/butihavenoarms
+
 ![](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/u:Vogsphere.jpg)
+
 - u/Vogsphere
+
 ![](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/u:be3aial.jpg)
+
 - u/be3aial
+
+![KneeDeep](https://github.com/AndyDoering/Keyboards/blob/main/808-Boom/images/KneeDeep.jpg)
+
 ![]()
+
 ![]()
+
 ![]()
+
 ![]()
-![]()
-![]()
+
 
 ## Extra Info
 - [Podcast about the 808](https://www.20k.org/episodes/808)
