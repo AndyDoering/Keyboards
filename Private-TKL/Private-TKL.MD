@@ -3,7 +3,7 @@
 
 Hello, and welcome to the private group buy! 
 
-This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mine being produced with lots of help from Fropsie/Armani and Superuser. Simply put, I've always wanted an F-ROW less board, but few have come to fruition. The goal of this board is to produce something that is attractive, pairs well with a wide range of styles, and is pleasant to type on in the F-ROW less form factor. A proto version of this board has already been run in TKL form factor (the SDTKL), which Armani was extremely pleased with. Since this is an extremely small private run, the aim is to minimize areas for failure and maximize quality, opting to do a few things well instead of offer everything possible. 
+This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mine being produced with lots of help from Fropsie/Armani and Superuser. Simply put, I've always wanted an F-ROW less board, but few have come to fruition. The goal of this board is to produce something that is attractive, pairs well with a wide range of styles, and is pleasant to type on in the F-ROW less form factor. A proto version of this board has already been run in TKL form factor (see the SDTKL gallery here), which Armani was extremely pleased with. Since this is an extremely small private run, the aim is to minimize areas for failure and maximize quality, opting to do a few things well instead of offer everything possible. 
 
 
 ## Features:
@@ -12,7 +12,6 @@ This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mi
   - WKL
   - ANSI + ISO Support
   - Stepped + Normal Caps
-  -  
 - Seamless profile design 
 - Potential Color(s): 
   - Dark Gray Anodized (Simlilar to the [KBD8X MKII](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/IMG_20191216_164500_596(1).jpg))
