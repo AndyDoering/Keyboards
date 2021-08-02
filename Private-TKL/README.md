@@ -13,7 +13,7 @@ This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mi
 - Layout:    
   - WKL
   - ANSI + ISO Support
-  - Stepped + Normal Caps
+  - Stepped + Normal Caps (Supported, just not pictured above)
 - Structure: Leafspring Gasket (Similar to the [E7-V2](https://exclusive.run/blogs/news/e7-v2-gml-isolated-gasket-muted-plate-leaf-spring-structure))
 - Seamless profile design 
 - Potential Color(s): 
