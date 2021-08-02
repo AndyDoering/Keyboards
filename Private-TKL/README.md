@@ -61,7 +61,7 @@ This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mi
 #### PCB Protos
 ![PCB-Protos](https://user-images.githubusercontent.com/64050644/127888601-da6b405a-0288-41c5-afd5-a92df20ed2dc.jpg)
 
-#### Initial TKL version protos
+#### Initial TKL+FROW proto
 ![SnowShot](https://github.com/AndyDoering/Keyboards/blob/main/Private-TKL/SDTKL-proto/SD_Snow_TKL_1.JPG)
 ![Inside](https://github.com/AndyDoering/Keyboards/blob/main/Private-TKL/SDTKL-proto/SD_Inside.jpg)
 ![Bottom](https://github.com/AndyDoering/Keyboards/blob/main/Private-TKL/SDTKL-proto/SD-backside.jpg)
