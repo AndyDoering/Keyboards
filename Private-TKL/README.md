@@ -59,6 +59,8 @@ This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mi
 - SDTKL proto version already successfully produced and tested
 
 #### PCB Protos
+- Protos arrived, currently being tested
+- Addition to QMK has been submitted [here](https://github.com/qmk/qmk_firmware/pull/13840)
 ![PCB-Protos](https://user-images.githubusercontent.com/64050644/127888601-da6b405a-0288-41c5-afd5-a92df20ed2dc.jpg)
 
 #### Initial TKL+FROW proto
