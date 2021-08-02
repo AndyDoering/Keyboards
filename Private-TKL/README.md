@@ -9,11 +9,12 @@ This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mi
 - Pending PCB approval and final price calculation, ready to start locking in commited buyers and move forward with placing group buy order
 
 ## Features:
-- Structure: Leafspring Gasket (Similar to the [E7-V2](https://exclusive.run/blogs/news/e7-v2-gml-isolated-gasket-muted-plate-leaf-spring-structure))
+![LayoutOptions](https://user-images.githubusercontent.com/64050644/127888713-6c6b3dd0-d3e2-4e7d-9faa-a93ff4603916.png)
 - Layout:    
   - WKL
   - ANSI + ISO Support
   - Stepped + Normal Caps
+- Structure: Leafspring Gasket (Similar to the [E7-V2](https://exclusive.run/blogs/news/e7-v2-gml-isolated-gasket-muted-plate-leaf-spring-structure))
 - Seamless profile design 
 - Potential Color(s): 
   - Dark Gray Anodized (Simlilar to the [KBD8X MKII](https://raw.githubusercontent.com/AndyDoering/Keyboards/main/images/IMG_20191216_164500_596(1).jpg))
@@ -51,13 +52,18 @@ This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mi
 - Proto round has been ordered.
   - Waiting for proto verification
 
-## Updates
-- `Last Updated 7/30/2021`
+## Updates (Most recent at top)
+- `Last Updated 8/02/2021`
 - Currently taking interest spots
   > Spots left: 8/10
 - SDTKL proto version already successfully produced and tested
 
+#### PCB Protos
+![PCB-Protos](https://user-images.githubusercontent.com/64050644/127888601-da6b405a-0288-41c5-afd5-a92df20ed2dc.jpg)
+
+#### Initial TKL version protos
 ![SnowShot](https://github.com/AndyDoering/Keyboards/blob/main/Private-TKL/SDTKL-proto/SD_Snow_TKL_1.JPG)
 ![Inside](https://github.com/AndyDoering/Keyboards/blob/main/Private-TKL/SDTKL-proto/SD_Inside.jpg)
 ![Bottom](https://github.com/AndyDoering/Keyboards/blob/main/Private-TKL/SDTKL-proto/SD-backside.jpg)
 ![PCB](https://github.com/AndyDoering/Keyboards/blob/main/Private-TKL/SDTKL-proto/SD_pcb.jpg)
+
