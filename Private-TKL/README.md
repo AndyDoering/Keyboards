@@ -55,7 +55,7 @@ This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mi
 ## Updates (Most recent at top)
 - `Last Updated 8/02/2021`
 - Currently taking interest spots
-  > Spots left: 8/10
+  > Spots left: 7/10
 - SDTKL proto version already successfully produced and tested
 
 #### PCB Protos
