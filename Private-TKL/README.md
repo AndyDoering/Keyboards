@@ -30,7 +30,7 @@ This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mi
   - Uses standard daughterboard (mounted on bottom of case)
   - [QMK](https://docs.qmk.fm/#/) & [VIA](https://caniusevia.com/) compatible
   - Caps LED only
-- Price: ~ $650
+- Price: ~ $650 (Board and parts + Shipping + PayPal fees (2.9%))
 
 ## Parts List:
 - 1x 6063 aluminum board top
