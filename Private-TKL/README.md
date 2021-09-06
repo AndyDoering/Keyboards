@@ -6,7 +6,7 @@ Hello, and welcome to the private group buy!
 This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mine being produced with lots of help from Fropsie/Armani and Superuser. Simply put, I've always wanted an F-ROW less board, but few have come to fruition. The goal of this board is to produce something that is attractive, pairs well with a wide range of styles, and is pleasant to type on in the F-ROW less form factor. A proto version of this board has already been produced in full F-ROW TKL form factor ([see the SDTKL gallery here](https://github.com/AndyDoering/Keyboards/tree/main/Private-TKL/SDTKL-proto)), which Armani was extremely pleased with (note the side profile of the SDTKL proto is a slightly different). Since this is an extremely small private run, the aim is to minimize areas for failure and maximize quality, opting to do a few things well instead of offer everything possible. I'm trying to keep this run as close to cost as possible for those who join, including materials and costs for shipping. The below estimated price will likely change based on the final number of boards needed, split between everyone. 
 
 ## Timeframe
-- Pending PCB approval and final price calculation, ready to start locking in commited buyers and move forward with placing group buy order
+- Ready to start locking in commited buyers and move forward with placing group buy order
 
 ## Features:
 ![LayoutOptions](https://user-images.githubusercontent.com/64050644/127888713-6c6b3dd0-d3e2-4e7d-9faa-a93ff4603916.png)
@@ -53,13 +53,13 @@ This is the info page for the Private TKL, an F-ROW less, WinKeyLess dream of mi
   - Waiting for proto verification
 
 ## Updates (Most recent at top)
-- `Last Updated 8/02/2021`
+- `Last Updated 9/06/2021`
 - Currently taking interest spots
   > Spots left: 7/10
 - SDTKL proto version already successfully produced and tested
 
 #### PCB Protos
-- Protos arrived, currently being tested
+- PCBs completed and reviewed!
 - Addition to QMK has been submitted [here](https://github.com/qmk/qmk_firmware/pull/13840)
 
 ![PCB-Protos](https://user-images.githubusercontent.com/64050644/127888601-da6b405a-0288-41c5-afd5-a92df20ed2dc.jpg)
